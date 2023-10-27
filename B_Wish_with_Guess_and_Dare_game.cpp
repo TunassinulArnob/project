@@ -40,11 +40,11 @@ void game::rules()
     string r_Line[] = {
         "How to play this game?",
         "Here are the rules of the game: \n",
-        "1. The program starts by showing some random food item.\n\t\t   One of them is Hard-To-Eat.\n",
+        "1. The program starts by showing some random food items.\n\t\t   One of them is Hard-To-Eat.\n",
         "2. The player can choose the number of attempts (minimum 5) they want to make.\n",
         "3. The player must press n distinct alphabets to start the program each time.\n",
         "4. After the player starts the program, for each attempt,\n\t\t   the program selects a random food item from the list.\n",
-        "5. There are 5 Random Alphabets used as Trap Key.\n\t\t   If the player presses a trap key , they must eat the  hardest-to-eat food item.\n",
+        "5. There are 5 Random Alphabets used as Trap Key.\n\t\t   If the player presses a trap key, they must eat the  hardest-to-eat food item.\n",
         "6. After the specified number of attempts,\n\t\t   the program determines which food item was chosen the most number of times.\n",
         "7. The player must eat the food item that was chosen the most times.\n"};
     for (int i = 0; i < sizeof(r_Line) / sizeof(r_Line[0]); i++)
